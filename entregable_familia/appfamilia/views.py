@@ -9,7 +9,7 @@ def familia_template(request):
     familiar_nuevo = familia.objects.create(
     nombre = "liliana", 
     edad = 65, 
-    fecha_de_nacimiento = 18/11/1963
+    fecha_de_nacimiento = "1963-11-18"
     )
     
     context ={"familiar_nuevo":familiar_nuevo}
